@@ -22,7 +22,8 @@ The Book Review Platform is a Laravel-based web application that empowers book l
 ## Screenshots
 
 ### Home Page
-![mainpage](https://github.com/Shaabanm2018/Book-Review-Platform/assets/76607364/45e772cc-f9e3-4085-9633-8c9a98d5fdf7)
+![Screenshot 2024-06-08 133057](https://github.com/Shaabanm2018/Book-Review-Platform/assets/76607364/73a17e90-cd1b-48fa-baf9-6bb241b61298)
+
 
 
 ### Book Detail Page
