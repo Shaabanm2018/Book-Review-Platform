@@ -53,8 +53,20 @@ The Book Review Platform is a Laravel-based web application that empowers book l
    cd Book-Review-Platform
 
 ## Setup Environment
+composer install
+cp .env.example .env
+
+Access .env file and ensure the follwoing settings
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel-10-book-review
+DB_USERNAME=root
+DB_PASSWORD=
+
+php artisan key:generate
 php artisan migrate
-php artisan migrate:refresh --seed
+php artisan db:seed
 
 ## Start the development server:
 php artisan serve
